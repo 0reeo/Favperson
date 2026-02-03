@@ -1,0 +1,46 @@
+body {
+  font-family: 'Georgia', serif;
+  background: #f7f4ef;
+  color: #333;
+  margin: 0;
+  padding: 40px;
+}
+
+.center, .content {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #aaa;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s ease;
+}
+
+.memory-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#surprise-message {
+  opacity: 0;
+  transition: 1.5s;
+}
+
+#surprise-message.show {
+  opacity: 1;
+}
